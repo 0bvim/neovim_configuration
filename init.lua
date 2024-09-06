@@ -1,2 +1,2 @@
-require("nivi.core.options")
-require("nivi.core.keymaps")
+require("nivi.core")
+require("nivi.lazy")
