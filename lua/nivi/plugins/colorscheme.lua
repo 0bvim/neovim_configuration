@@ -5,7 +5,7 @@ return {
     local transparent = false -- set to true if you would like to enable transparency
 
     local bg = "#011628"
-    local bg_dark = "#f11423"
+    local bg_dark = "#011223"
     local bg_highlight = "#143652"
     local bg_search = "#0A64AC"
     local bg_visual = "#275378"
