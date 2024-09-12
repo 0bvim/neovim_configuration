@@ -27,3 +27,9 @@ keymap.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" 
 keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "go to next tab" })
 keymap.set("n", "<leader>tp", "<cmd>tabnep<CR>", { desc = "go to previous tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "open current buffer in new tab" })
+
+--- move line up and down
+keymap.set("n", "<A-j>", ":m .+1<CR>==", { noremap = true, silent = true })
+keymap.set("n", "<A-k>", ":m .-2<CR>==", { noremap = true, silent = true })
+keymap.set("i", "<A-j>", "<Esc>:m .+1<CR>==gi", { noremap = true, silent = true })
+keymap.set("i", "<A-k>", "<Esc>:m .-2<CR>==gi", { noremap = true, silent = true })
