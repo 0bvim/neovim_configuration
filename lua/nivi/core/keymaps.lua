@@ -6,6 +6,9 @@ local keymap = vim.keymap
 -- exit
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 
+-- select all
+keymap.set("n", "<C-a>", "ggVG", { desc = "Exit insert mode with jk" })
+
 -- clear highlight
 keymap.set("n", "<leader>h", ":nohl<CR>", { desc = "Clear search highlights" })
 
