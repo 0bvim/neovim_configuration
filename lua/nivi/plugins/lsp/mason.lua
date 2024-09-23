@@ -36,6 +36,7 @@ return {
 				"prismals",
 				"pyright",
 				"gopls",
+				"clangd",
 			},
 		})
 
@@ -47,6 +48,9 @@ return {
 				"black", -- python formatter
 				"pylint",
 				"eslint_d",
+				"goimports",
+				"cpplint",
+				"clang-format",
 			},
 		})
 	end,
