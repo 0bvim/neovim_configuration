@@ -31,11 +31,14 @@ return {
 			{ "<leader>t", group = "Tab" }, -- group
 			{ "<leader>w", group = "Session" }, -- group
 			{ "<leader>x", group = "Trouble" }, -- group
+			{ "<leader>q", group = "Quit" }, -- group
 			{
 				mode = { "n" },
 				{ "<C-a>", "ggVG", desc = "Selec All" },
 				{ "<leader>h", ":nohl<CR>", desc = "Clear search highlights" },
-				{ "<leader>q", ":qa<CR>", desc = "Close all buffers" },
+				{ "<leader>qq", ":qa<CR>", desc = "Close all buffers" },
+				{ "<leader>qf", ":qa!<CR>", desc = "Close all and discard changes" },
+				{ "<leader>qc", ":q<CR>", desc = "Close current buffer" },
 				{ "<C-s>", ":w<CR>", desc = "Save current buffer" },
 				{ "<leader>sv", "<C-w>v", desc = "Split vertically" },
 				{ "<leader>sh", "<C-w>s", desc = "Split horizontally" },
