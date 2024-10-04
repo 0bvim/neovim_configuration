@@ -9,22 +9,22 @@ return {
 			open_cmd = "vnew",
 			live_update = false,
 			lnum_for_results = true,
-			-- result_padding = '¦  ',
-			-- line_sep_start = '┌-----------------------------------------',
-			-- line_sep       = '└-----------------------------------------',
-			-- highlight = {
-			--     ui = "String",
-			--     search = "DiffChange",
-			--     replace = "DiffDelete"
-			-- },
-			-- mapping={
-			--   ['tab'] = {
-			--       map = '<Tab>',
-			--       cmd = "<cmd>lua require('spectre').tab()<cr>",
-			--       desc = 'next query'
-			--   },
-			--   -- ... other mappings ...
-			-- }
+			result_padding = "¦  ",
+			line_sep_start = "┌-----------------------------------------",
+			line_sep = "└-----------------------------------------",
+			highlight = {
+				ui = "String",
+				search = "DiffChange",
+				replace = "DiffDelete",
+			},
+			mapping = {
+				["tab"] = {
+					map = "<Tab>",
+					cmd = "<cmd>lua require('spectre').tab()<cr>",
+					desc = "next query",
+				},
+				-- ... other mappings ...
+			},
 		})
 	end,
 }

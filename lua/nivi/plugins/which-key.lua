@@ -38,7 +38,7 @@ return {
 				{ "<leader>h", ":nohl<CR>", desc = "Clear search highlights" },
 				{ "<leader>qq", ":qa<CR>", desc = "Close all buffers" },
 				{ "<leader>qf", ":qa!<CR>", desc = "Close all and discard changes" },
-				{ "<leader>qF", ":wq!<CR>", desc = "Close all and force save changes" },
+				{ "<leader>qF", ":xa!<CR>", desc = "Close all and force save changes" },
 				{ "<leader>qc", ":q<CR>", desc = "Close current buffer" },
 				{ "<leader>qs", ":w!<CR>", desc = "Force save file" },
 				{ "<C-s>", ":w<CR>", desc = "Save current buffer" },
