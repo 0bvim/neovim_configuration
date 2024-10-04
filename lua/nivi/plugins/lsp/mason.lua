@@ -37,6 +37,7 @@ return {
 				"pyright",
 				"gopls",
 				"clangd",
+				"nextls",
 			},
 		})
 
