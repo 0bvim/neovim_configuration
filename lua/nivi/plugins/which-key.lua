@@ -38,6 +38,7 @@ return {
 				{ "<C-a>", "ggVG", desc = "Selec All" },
 				{ "<leader>h", ":nohl<CR>", desc = "Clear search highlights" },
 				{ "<leader>gb", ":GitBlameToggle<CR>", desc = "On/Off blame" },
+				{ "<leader>gl", "<cmd>LazyGit<cr>", desc = "LazyGit" },
 				{ "<leader>qq", ":qa<CR>", desc = "Close all buffers" },
 				{ "<leader>qf", ":qa!<CR>", desc = "Close all and discard changes" },
 				{ "<leader>qF", ":xa!<CR>", desc = "Close all and force save changes" },
