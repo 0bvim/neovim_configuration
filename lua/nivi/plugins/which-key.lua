@@ -32,10 +32,12 @@ return {
 			{ "<leader>w", group = "Session" }, -- group
 			{ "<leader>x", group = "Trouble" }, -- group
 			{ "<leader>q", group = "Quit" }, -- group
+			{ "<leader>g", group = "Git" }, -- group
 			{
 				mode = { "n" },
 				{ "<C-a>", "ggVG", desc = "Selec All" },
 				{ "<leader>h", ":nohl<CR>", desc = "Clear search highlights" },
+				{ "<leader>gb", ":GitBlameToggle<CR>", desc = "On/Off blame" },
 				{ "<leader>qq", ":qa<CR>", desc = "Close all buffers" },
 				{ "<leader>qf", ":qa!<CR>", desc = "Close all and discard changes" },
 				{ "<leader>qF", ":xa!<CR>", desc = "Close all and force save changes" },
