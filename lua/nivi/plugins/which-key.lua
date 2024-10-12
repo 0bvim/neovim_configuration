@@ -21,19 +21,19 @@ return {
 	},
 	config = function()
 		local wk = require("which-key")
-		-- groups are when you press <leader>[key]
+		-- groups are when you press <leader>[key] and name of group appear
 		wk.add({
-			{ "<leader>e", group = "Files Tree" }, -- group
-			{ "<leader>f", group = "Find" }, -- group
-			{ "<leader>c", group = "Code Action", mode = { "n", "v" } }, -- group
-			{ "<leader>m", group = "Format", mode = { "n", "v" } }, -- group
-			{ "<leader>r", group = "Rename" }, -- group
-			{ "<leader>s", group = "Window" }, -- group
-			{ "<leader>t", group = "Tab" }, -- group
-			{ "<leader>w", group = "Session" }, -- group
-			{ "<leader>x", group = "Trouble" }, -- group
-			{ "<leader>q", group = "Quit" }, -- group
-			{ "<leader>g", group = "Git" }, -- group
+			{ "<leader>e", group = "Files Tree" },
+			{ "<leader>f", group = "Find" },
+			{ "<leader>c", group = "Code Action", mode = { "n", "v" } },
+			{ "<leader>m", group = "Format", mode = { "n", "v" } },
+			{ "<leader>r", group = "Rename" },
+			{ "<leader>s", group = "Window" },
+			{ "<leader>t", group = "Tab" },
+			{ "<leader>w", group = "Session" },
+			{ "<leader>x", group = "Trouble" },
+			{ "<leader>q", group = "Quit" },
+			{ "<leader>g", group = "Git" },
 			{
 				mode = { "n" },
 				{ "<C-a>", "ggVG", desc = "Selec All" },
