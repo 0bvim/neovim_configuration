@@ -21,6 +21,7 @@ return {
 	},
 	config = function()
 		local wk = require("which-key")
+		-- groups are when you press <leader>[key]
 		wk.add({
 			{ "<leader>e", group = "Files Tree" }, -- group
 			{ "<leader>f", group = "Find" }, -- group
