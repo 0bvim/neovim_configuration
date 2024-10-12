@@ -2,7 +2,10 @@ vim.cmd("let g:netrw_liststyle = 3")
 
 local opt = vim.opt
 
+-- activate relative number
 opt.relativenumber = true
+
+-- activate actual number line at cursor
 opt.number = true
 
 -- tabs & indentation
