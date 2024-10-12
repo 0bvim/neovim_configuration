@@ -1,4 +1,3 @@
----
 
 # Neovim Configuration
 
@@ -48,7 +47,5 @@ This README provides an overview of the plugins included in my Neovim configurat
 1. Clone this repository to your Neovim configuration directory.
 2. Install the plugins using your preferred plugin manager.
 3. Restart Neovim.
-
----
 
 This README provides a brief overview of the plugins included in my Neovim configuration. For more details, please refer to the documentation of each plugin.
