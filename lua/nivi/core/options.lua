@@ -39,3 +39,14 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
+
+-- enable automatic folding
+
+-- Set the fold method to syntax-based folding
+opt.foldmethod = "indent"
+
+-- Set the default fold level to 99 to keep all folds open when opening a file
+opt.foldlevel = 99
+
+-- Enable folding automatically when opening a file
+opt.foldenable = true
