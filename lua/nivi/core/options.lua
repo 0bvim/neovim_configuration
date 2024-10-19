@@ -2,6 +2,8 @@ vim.cmd("let g:netrw_liststyle = 3")
 
 local opt = vim.opt
 
+opt.updatetime = 300 -- refresh time to improve Trouble for a while
+
 -- activate relative number
 opt.relativenumber = true
 
