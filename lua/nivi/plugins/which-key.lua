@@ -95,8 +95,8 @@ return {
 			},
 			{
 				mode = { "v" },
-				{ "<A-j>", "<cmd>m '>+1<CR>gv=gv", noremap = true, silent = true },
-				{ "<A-k>", "<cmd>m '<-2<CR>gv=gv", noremap = true, silent = true },
+				{ "<A-j>", ":m '>+1<CR>gv=gv", noremap = true, silent = true },
+				{ "<A-k>", ":m '<-2<CR>gv=gv", noremap = true, silent = true },
 			},
 		})
 	end,
